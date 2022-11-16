@@ -1,0 +1,41 @@
+@font-face {
+  font-family: forBegining;
+  src: url(../fonts/CormorantInfant-Bold.ttf);
+}
+@font-face {
+  font-family: forSecond;
+  src: url(../fonts/Caveat-SemiBold.ttf);
+}
+*,
+*::after,
+*::before {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  box-sizing: border-box;
+}
+body {
+  
+background: linear-gradient(
+135deg,
+rgb(0, 0, 0),
+rgb(255, 226, 113),
+rgb(237, 242, 208));
+}
+.begining {
+font-family: forBegining, serif;
+background-color: rgb(242, 238, 203);
+}
+.links {
+background-color: rgb(238, 223, 166);
+}
+.text {
+background-color: rgb(242, 238, 203);
+}
+.dial {
+font-family: forSecond, serif;
+font-size: 2em;
+}
+.text:nth-child(even) {
+background-color: rgb(238, 223, 166);
+}
